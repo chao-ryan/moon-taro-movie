@@ -1,7 +1,7 @@
 /* eslint-disable import/no-commonjs */
 
 // 根据需要修改小程序id
-const appId = "wx4f1abf7f92833937";
+const appId = "wxc20a4c75ec2fe653";
 
 module.exports = {
   env: {
