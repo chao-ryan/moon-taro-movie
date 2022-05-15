@@ -1,0 +1,24 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true,
+    "source.fixAll.stylelint": true
+  },
+  // "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "cssModules.camelCase": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.watcherExclude": {
+    "**/target": true
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "gitlens.remotes": [
+    { "domain": "bitbucket.teamx.tokyo", "type": "BitbucketServer" }
+  ]
+}
